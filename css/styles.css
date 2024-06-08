@@ -1,0 +1,39 @@
+
+.body {
+    background-color: #1d5273;
+    font-family: "Caveat", cursive;
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+ #bienvenue {
+    height: 75vh;
+} 
+
+.group h1 {
+    color: #17a2b8;
+    font-family: "Pacifico", cursive;
+    font-size: 3rem;
+}
+
+.group {
+    background-image: url(/img/pexels.jpg);
+    background-size:cover ;
+    box-shadow: -5px 3px 54px -9px rgba(0, 0, 0, 1);
+}
+
+input,
+textarea {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: rgb(182, 182, 182) !important;
+}
+
+input:focus,
+textarea:focus {
+    box-shadow: 0 0 0 0 transparent !important;
+}
